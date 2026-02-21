@@ -6,7 +6,8 @@ const currentYear = new Date().getFullYear();
 export const APP_CONFIG = {
   name: "SON",
   version: packageJson.version,
-  icon: "/images/logo/logo2x.png",
+  icon: "/images/logo/horizontal/1.png",
+  logo: "/images/logo/icon/main.png",
   copyright: `© ${currentYear}, Standard Organization Of Nigeria.`,
   meta: {
     title: "Standard Organization Of Nigeria - ERP",

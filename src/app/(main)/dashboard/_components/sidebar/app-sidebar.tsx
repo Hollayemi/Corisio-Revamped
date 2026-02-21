@@ -66,8 +66,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <SidebarMenuButton asChild className="hover:bg-transparent data-[slot=sidebar-menu-button]:!p-1.5">
               <Link href="/dashboard">
-                <Image src={APP_CONFIG.icon} alt="SON_LOGO" width={40} height={40} />
-                <span className="text-primary! text-base font-bold">{APP_CONFIG.name}</span>
+                <Image src={APP_CONFIG.icon} className="group-data-[collapsible=icon]:hidden" alt="SON_LOGO" width={120} height={60} />
+                <Image src={APP_CONFIG.logo} className=" hidden group-data-[collapsible=icon]:block!" alt="SON_LOGO" width={60} height={60} />
+                
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
